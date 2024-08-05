@@ -1,4 +1,4 @@
-# Name entity recognition of Plant-Disease using BERT
+## Name entity recognition of Plant-Disease using BERT
 
 ### Introduction
 This research applied macro-averaged F1, inspired by Takahashi et al. (2022), to assess the model's performance in light of imbalanced label distribution.  Furthermore, data visualization was facilitated to evaluate the classification algorithm performance is facilitated through the use of the sklearn Python package library (Scikit Learn 2024), employing the Confusion Matrix approach. 
@@ -8,26 +8,33 @@ Additionally, receiver operating characteristics (ROC) were used to gauge sensit
 During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from the National Library of Medicine  (https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
 
 
-## Requirements:
+### Requirements:
 - Streamlit
 - Pytorch
 - GPU
 - Transformer
 
-## Dataset:
+### Dataset:
 - BioBERT Model [https://huggingface.co/dmis-lab/biobert-v1.1]
 - BC5CDR-disease [https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data]
 - NCBI-disease [https://github.com/spyysalo/ncbi-disease/tree/master/conll]
 - BotanicalNER [https://github.com/IsabelMeraner/BotanicalNER]
 - Plant-Disease Relation Corpus [https://doi.org/10.1371/journal.pone.0221582.s003]
 
-# Train model
+### Labels distribution
+- B-Plant: 405
+- I-Plant: 248
+- B-Disease: 945
+- I-Disease: 721
+- O: 14107
+
+## Train model
 [Colab Notebook](https://colab.research.google.com/drive/16w4uRbSU_P_8scAuUwDrH2KpCyoeiuRS?authuser=1)
 ```
 BERT-NER.ipynb
 ```
 
-## Evaluate
+### Evaluate
 
 | Label     | Precision | Recall | F1  |
 |-----------|-----------|--------|-----|
@@ -40,9 +47,7 @@ BERT-NER.ipynb
 | Weight avg| 0.98      | 0.98   | 0.98|
 
 
-
-
-## Test model
+### Test model
 ```
 from transformers import pipeline, AutoModelForTokenClassification, AutoTokenizer
 
