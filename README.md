@@ -14,7 +14,7 @@
 - Plant-Disease Relation Corpus [https://doi.org/10.1371/journal.pone.0221582.s003]
 
 # Train model
-[Colab Notebook][(https://drive.google.com/file/d/16w4uRbSU_P_8scAuUwDrH2KpCyoeiuRS/view?usp=drive_link)(https://drive.google.com/file/d/16w4uRbSU_P_8scAuUwDrH2KpCyoeiuRS/view?usp=drive_link))]
+[Colab Notebook][https://colab.research.google.com/drive/16w4uRbSU_P_8scAuUwDrH2KpCyoeiuRS?authuser=1]
 ```
 BERT-NER.ipynb
 ```
