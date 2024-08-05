@@ -26,6 +26,24 @@ BERT-NER.ipynb
 ```
 
 ## Evaluate
+<body>
+    <table>
+        <tr>
+            <th>Nama </th>
+            <th>Kelas </th>
+            <th>Jurusan </th>
+            <th>No. Absen </th>
+        </tr>
+    
+        <tr>
+            <td>Josi Kie</td>
+            <td>XI-RPL</td>
+            <td>Rekayasa Perangkat Lunak</td>
+            <td>22</td>
+        </tr>
+    </table>
+</body>
+
 Label		    Precision Recall   F1
 B-Disease	  0.88	    0.91	  0.90
 B-Plant		  0.89	    0.91	  0.90
