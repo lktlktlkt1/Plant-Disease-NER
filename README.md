@@ -3,11 +3,11 @@
 ### Introduction
 This research is inspired by [Erik F. Tjong Kim Sang and Fien De Meulder](https://www.aclweb.org/anthology/W03-0419) for the Named Entity Recognition Task. We add some processes to select quality source domains before being used as training data using the Jensen-Shanon Divergence metric.
 
-This research applied macro-averaged F1, inspired by Takahashi et al. (2022), to assess the model's performance in light of imbalanced label distribution.  Furthermore, data visualization was facilitated to evaluate the classification algorithm performance is facilitated through the use of the sklearn Python package library (Scikit Learn 2024), employing the Confusion Matrix approach. 
+This research applied macro-averaged F1, inspired by Takahashi et al. (2022)(https://link.springer.com/article/10.1007/s10489-021-02635-5), to assess the model's performance in light of imbalanced label distribution.  Furthermore, data visualization was facilitated to evaluate the classification algorithm performance is facilitated through the use of the sklearn Python package library (Scikit Learn 2024), employing the Confusion Matrix approach. 
 
-Additionally, receiver operating characteristics (ROC) were used to gauge sensitivity and specificity. ROC illustrates the relationship between sensitivity (true positive rate) and specificity (true negative rate), where sensitivity measures the model's ability to identify the positive class, and specificity measures its ability to identify the negative class (Nahm 2022).
+Additionally, receiver operating characteristics (ROC) were used to gauge sensitivity and specificity. ROC illustrates the relationship between sensitivity (true positive rate) and specificity (true negative rate), where sensitivity measures the model's ability to identify the positive class, and specificity measures its ability to identify the negative class (Nahm 2022)(https://pubmed.ncbi.nlm.nih.gov/35124947/).
 
-During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from the National Library of Medicine  (https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
+During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from the National Library of Medicine(https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
 
 
 ### Requirements:
@@ -28,7 +28,7 @@ During model testing, we utilised internal input data originating from an unlabe
 - I-Plant: 248
 - B-Disease: 945
 - I-Disease: 721
-- O: 14107
+- O: 14,107
 
 ## Train model
 [Colab Notebook](https://colab.research.google.com/drive/16w4uRbSU_P_8scAuUwDrH2KpCyoeiuRS?authuser=1)
