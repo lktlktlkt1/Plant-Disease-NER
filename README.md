@@ -13,12 +13,6 @@
 - BotanicalNER [https://github.com/IsabelMeraner/BotanicalNER]
 - Plant-Disease Relation Corpus [https://doi.org/10.1371/journal.pone.0221582.s003]
 
-
-## Demo
-```
-streamlit run app.py
-```
-
 # Train model
 [Colab Notebook](https://colab.research.google.com/drive/1OWZ5l0hQOoPbjsP4zCO0ix5yOxIEY4vr)
 ```
@@ -26,7 +20,8 @@ BERT-NER.ipynb
 ```
 
 ## Evaluate
-<body>
+<html>
+    <body>
     <table>
         <tr>
             <th>Nama </th>
@@ -42,7 +37,8 @@ BERT-NER.ipynb
             <td>22</td>
         </tr>
     </table>
-</body>
+    </body>
+</html>
 
 Label		    Precision Recall   F1
 B-Disease	  0.88	    0.91	  0.90
