@@ -7,7 +7,7 @@ This research applied macro-averaged F1, inspired by [Takahashi et al. (2022)](h
 
 Additionally, receiver operating characteristics (ROC) were used to gauge sensitivity and specificity. ROC illustrates the relationship between sensitivity (true positive rate) and specificity (true negative rate), where sensitivity measures the model's ability to identify the positive class, and specificity measures its ability to identify the negative class [(Nahm 2022)](https://pubmed.ncbi.nlm.nih.gov/35124947/).
 
-During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from the National Library of Medicine(https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
+During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from [the National Library of Medicine](https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
 
 
 ### Requirements:
