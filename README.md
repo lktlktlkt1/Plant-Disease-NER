@@ -26,7 +26,15 @@ BERT-NER.ipynb
 ```
 
 ## Evaluate
-Model accuracy: 0.98
+Label		    Precision Recall   F1
+B-Disease	  0.88	    0.91	  0.90
+B-Plant		  0.89	    0.91	  0.90
+I-Disease	  0.90	    0.92	  0.91
+I-Plant		  0.90	    0.94	  0.92
+
+Accuracy					            0.98
+Macro avg	  0.91	    0.94	  0.92
+Weight avg	0.98	    0.98	  0.98
 
 ## Test model
 ```
