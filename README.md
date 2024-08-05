@@ -20,35 +20,17 @@ BERT-NER.ipynb
 ```
 
 ## Evaluate
-<html>
-    <body>
-    <table>
-        <tr>
-            <th>Nama </th>
-            <th>Kelas </th>
-            <th>Jurusan </th>
-            <th>No. Absen </th>
-        </tr>
-    
-        <tr>
-            <td>Josi Kie</td>
-            <td>XI-RPL</td>
-            <td>Rekayasa Perangkat Lunak</td>
-            <td>22</td>
-        </tr>
-    </table>
-    </body>
-</html>
 
-Label		    Precision Recall   F1
-B-Disease	  0.88	    0.91	  0.90
-B-Plant		  0.89	    0.91	  0.90
-I-Disease	  0.90	    0.92	  0.91
-I-Plant		  0.90	    0.94	  0.92
+| Label     | Precision | Recall | F1  |
+|-----------|-----------|--------|-----|
+| B-Disease | 0.88      | 0.91   | 0.90|
+| B-Plant   | 0.89      | 0.91   | 0.90|
+| I-Disease | 0.90      | 0.92   | 0.91|
+| I-Plant   | 0.90      | 0.94   | 0.92|
+| Accuracy  |           |        | 0.98|
+| Macro avg | 0.91      | 0.94   | 0.92|
+| Weight avg| 0.98      | 0.98   | 0.98|
 
-Accuracy					            0.98
-Macro avg	  0.91	    0.94	  0.92
-Weight avg	0.98	    0.98	  0.98
 
 ## Test model
 ```
