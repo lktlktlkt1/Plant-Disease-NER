@@ -1,5 +1,13 @@
 # Name entity recognition of Plant-Disease using BERT
 
+### Introduction
+This research applied macro-averaged F1, inspired by Takahashi et al. (2022), to assess the model's performance in light of imbalanced label distribution.  Furthermore, data visualization was facilitated to evaluate the classification algorithm performance is facilitated through the use of the sklearn Python package library (Scikit Learn 2024), employing the Confusion Matrix approach. 
+
+Additionally, receiver operating characteristics (ROC) were used to gauge sensitivity and specificity. ROC illustrates the relationship between sensitivity (true positive rate) and specificity (true negative rate), where sensitivity measures the model's ability to identify the positive class, and specificity measures its ability to identify the negative class (Nahm 2022).
+
+During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from the National Library of Medicine  (https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
+
+
 ## Requirements:
 - Streamlit
 - Pytorch
