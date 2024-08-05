@@ -9,6 +9,9 @@ Additionally, receiver operating characteristics (ROC) were used to gauge sensit
 
 During model testing, we utilised internal input data originating from an unlabeled domain, whereas external data were obtained from randomly article abstracts sourced from [the National Library of Medicine](https://www.ncbi.nlm.nih.gov/), which were randomly chosen.
 
+### Workflow of Transfer Learning
+![Workflow]([https://github.com/username/repository/blob/main/path/to/your](https://github.com/slametriyanto/Plant-Disease-NER)/MTLS-NER-SlametR.png)
+
 
 ### Requirements:
 - Streamlit
