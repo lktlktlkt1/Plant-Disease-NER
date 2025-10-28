@@ -33,12 +33,12 @@ from tqdm import tqdm, trange
 from transformers import (
     MODEL_FOR_TOKEN_CLASSIFICATION_MAPPING,
     WEIGHTS_NAME,
-    AdamW,
     AutoConfig,
     AutoModelForTokenClassification,
     AutoTokenizer,
     get_linear_schedule_with_warmup,
 )
+from torch.optim import AdamW
 from utils_ner import convert_examples_to_features, get_labels, read_examples_from_file
 
 try:
